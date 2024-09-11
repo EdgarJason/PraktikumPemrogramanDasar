@@ -33,6 +33,7 @@ public class ProgramDayaListrik_EdgarJasonHusin_F_TIF_245150201111047 {
         System.out.print("Masukkan PPJ (dalam persen)       = ");
         d = scan.nextInt();
 
+        //operasi penghitungan
         e = c*1000;
         f = (e/10);
         g = e+f;
