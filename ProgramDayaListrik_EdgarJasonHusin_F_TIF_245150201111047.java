@@ -52,5 +52,6 @@ public class ProgramDayaListrik_EdgarJasonHusin_F_TIF_245150201111047 {
         System.out.println("PPJ "+d+"%             = Rp "+f+",-");
         System.out.println("TOTAL               = Rp "+g+",-");
         System.out.println("==========================================================");
+        
     }
 }
