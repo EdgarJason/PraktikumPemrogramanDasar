@@ -8,23 +8,30 @@ public class ProgramOperator_EdgarJasonHusin_F_TIF_245150201111047 {
             //Kelas : F - TIF
 
             Scanner scan= new Scanner(System.in);
-            double x,y;
+            int x,y;
+            int tambah,kurang,kali;
+            double bagi;
 
             //code penginputan
             System.out.println("===============================================");
 
             System.out.print("Masukkan operator pertama : ");
-            x= scan.nextDouble();
+            x= scan.nextInt();
 
             System.out.print("Masukkan operator kedua   : ");
-            y= scan.nextDouble();
+            y= scan.nextInt();
+
+            tambah=x+y;
+            kurang=x-y;
+            kali=x*y;
+            bagi=(double)x/y;
 
             //output
             System.out.println("===============================================");
-            System.out.println("Hasil penjumlahan : "+(x+y));
-            System.out.println("Hasil pengurangan : "+(x-y));
-            System.out.println("Hasil perkalian   : "+(x*y));
-            System.out.println("Hasil pembagian   : "+(x/y));
+            System.out.println("Hasil penjumlahan : "+tambah);
+            System.out.println("Hasil pengurangan : "+kurang);
+            System.out.println("Hasil perkalian   : "+kali);
+            System.out.println("Hasil pembagian   : "+bagi);
             System.out.println("===============================================");
 
     }
